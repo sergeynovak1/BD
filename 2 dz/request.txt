@@ -1,0 +1,64 @@
+CREATE DATABASE auto_market_db;
+
+\connect auto_market_db;
+\c auto_market_db;
+
+
+CREATE TABLE auto (
+brand varchar(50),
+model varchar(100),
+mileage real,
+state_number varchar(15), -- key
+owner_passport varchar(10), -- foreign key
+year integer,
+price real,
+accident_id integer, -- foreign key
+engine_id integer, -- foreign key
+equipment_id integer -- foreign key
+);
+
+
+CREATE TABLE owner (
+name varchar(255),
+number varchar(12),
+email varchar(100),
+passport varchar(10) -- key
+);
+
+
+CREATE TABLE engine (
+id integer, --key
+horsepower integer,
+capacity real,
+fuel varchar(15),
+turbo boolean
+);
+
+
+CREATE TABLE equipment (
+id int,-- key
+multiwheel boolean,
+multimedia boolean,
+conditioning boolean,
+numberseats integer,
+bodykit varchar(50)
+);
+
+
+CREATE TABLE car_market (
+address varchar(1024), -- key
+site varchar(100),
+name varchar(255),
+price real,
+state_numbers varchar(15),  -- foreign key
+rating real
+);
+
+
+CREATE TABLE accident (
+id integer, -- key
+date date,
+quantity_passport varchar(10), -- foreign key
+state_numbers varchar(15) -- foreign key
+);
+
