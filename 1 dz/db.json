@@ -1,0 +1,137 @@
+{
+    "car_markets": [
+        {
+            "address": "Volgograd",
+            "site": "auto.volgograd",
+            "name": "Volga",
+            "price": 5000,
+            "auto": [
+                {
+                    "brand": "Audi",
+                    "model": "A4",
+                    "mileage": 10000,
+                    "state_number": "н163сс34",
+                    "owner": {
+                        "name": "Sergey",
+                        "number": 888888,
+                        "email": "segey@mail.ru",
+                        "data": "01.06.2000"
+                    },
+                    "year": 2019,
+                    "price": 2100000,
+                    "accident": null,
+                    "category": "car",
+                    "engine": {
+                        "horsepower": 208,
+                        "capacity": 2.0,
+                        "fuel": "petrol",
+                        "turbo": null
+                    },
+                    "equipment": "normal"
+                },
+                {
+                    "brand": "LADA",
+                    "model": "priora",
+                    "mileage": 100000,
+                    "state_number": "о585оо13",
+                    "owner": {
+                        "name": "Olga",
+                        "number": 777777,
+                        "email": "olgay@mail.ru",
+                        "data": "01.06.2000"
+                    },
+                    "year": 2008,
+                    "price": 240000,
+                    "accident": null,
+                    "category": "car",
+                    "engine": {
+                        "horsepower": 156,
+                        "capacity": 1.6,
+                        "fuel": "petrol",
+                        "turbo": null
+                    },
+                    "equipment": "normal"
+                },
+                {
+                    "brand": "Renault",
+                    "model": "Duster",
+                    "mileage": 70000,
+                    "state_number": "о001оо56",
+                    "owner": {
+                        "name": "Ann",
+                        "number": 666666,
+                        "email": "ann@mail.ru",
+                        "data": "01.06.2000"
+                    },
+                    "year": 2019,
+                    "price": 1240000,
+                    "accident": null,
+                    "category": "car",
+                    "engine": {
+                        "horsepower": 208,
+                        "capacity": 2.0,
+                        "fuel": "petrol",
+                        "turbo": null
+                    },
+                    "equipment": "normal"
+                }
+            ],
+            "rating": "5.0"
+        },
+        {
+            "address": "Kazan",
+            "site": "auto.kazan",
+            "name": "Kazanka",
+            "price": 6000,
+            "auto": [
+                {
+                    "brand": "Renault",
+                    "model": "Logan",
+                    "mileage": 100000,
+                    "state_number": "е450ое65",
+                    "owner": {
+                        "name": "Oleg",
+                        "number": 555555,
+                        "email": "oleg@mail.ru",
+                        "data": "01.06.2000"
+                    },
+                    "year": 2008,
+                    "price": 240000,
+                    "accident": null,
+                    "category": "car",
+                    "engine": {
+                        "horsepower": 156,
+                        "capacity": 1.6,
+                        "fuel": "petrol",
+                        "turbo": null
+                    },
+                    "equipment": "normal"
+                },
+                {
+                    "brand": "Renault",
+                    "model": "Logan",
+                    "mileage": 100000,
+                    "state_number": "а555аа77",
+                    "owner": {
+                        "name": "Sergey",
+                        "number": 888888,
+                        "email": "segey@mail.ru",
+                        "data": "01.06.2000"
+                    },
+                    "year": 2008,
+                    "price": 210000,
+                    "accident": null,
+                    "category": "car",
+                    "engine": {
+                        "horsepower": 156,
+                        "capacity": 1.6,
+                        "fuel": "petrol",
+                        "turbo": null
+                    },
+                    "equipment": "normal"
+                }
+            ],
+            "rating": "5.0"
+        }
+    ]
+}
